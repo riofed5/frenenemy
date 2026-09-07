@@ -1,0 +1,9 @@
+{
+  "claude_model": "claude-sonnet-5",
+  "claude_effort": "medium",
+  "gpt_model": "gpt-5.6-sol",
+  "gpt_effort": "medium",
+  "rounds": 2,
+  "judge": "claude",
+  "max_words": 400
+}
