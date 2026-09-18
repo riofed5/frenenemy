@@ -3,10 +3,10 @@ name: debate
 description: Run a Claude-vs-ChatGPT debate on a question (Sonnet 5 via the claude CLI, GPT-5.6 Sol via the codex CLI, subscriptions only) and report the best answer. Use when the user says "debate", "ask GPT", "what does ChatGPT think", or wants two models to compare answers.
 ---
 
-Run the debate script from this project with the user's question:
+Run the debate script from this project with the user's question. Run it from the project root (the folder that contains `debate.py`):
 
 ```
-python3 /Users/nhan/Documents/frenenemy/debate.py "<question>" --rounds 2
+python3 debate.py "<question>" --rounds 2
 ```
 
 - Use a Bash timeout of at least 600000 ms; a two-round debate usually takes several minutes.
