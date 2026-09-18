@@ -1,0 +1,12 @@
+# Debate transcripts are personal run history; each clone makes its own.
+debates/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Claude Code per-machine settings
+.claude/settings.local.json
