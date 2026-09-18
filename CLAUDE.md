@@ -89,7 +89,7 @@ time**; the prompt has no trailing newline, so line-based reading deadlocks.
 exposes model gating. So `ui.probe_provider()` makes one tiny real call per model at its lowest
 effort, then walks efforts from the top down to find the ceiling. Results are cached in
 `availability.json` keyed by a hash of the account id, so switching accounts re-detects automatically.
-Empirically, on this user's Plus account **everything was callable**, including `gpt-6-astra` and
+Empirically, on a ChatGPT Plus account **everything was callable**, including `gpt-6-astra` and
 `ultra` effort. Do not hardcode plan restrictions; trust the probe.
 
 ## Billing facts worth remembering
